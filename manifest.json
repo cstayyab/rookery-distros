@@ -1,0 +1,85 @@
+{
+  "schema": 1,
+  "serial": 1,
+  "generated": "2026-11-02T09:20:20Z",
+  "distros": [
+    {
+      "id": "alpine",
+      "name": "Alpine Linux",
+      "version": "3.24.3",
+      "family": "alpine",
+      "description": "Small and quick. The best fit for TVs with little memory.",
+      "recommended": true,
+      "installSize": 734003200,
+      "images": {
+        "armeabi-v7a": {
+          "url": "https://dl-cdn.alpinelinux.org/alpine/v3.24/releases/armv7/alpine-minirootfs-3.24.3-armv7.tar.gz",
+          "sha256": "dc1ddfaf03ede4be79ad7475490f6b7859dbcbbbbb85150aa1ee013b4bc2f0c1",
+          "size": 3183009
+        },
+        "arm64-v8a": {
+          "url": "https://dl-cdn.alpinelinux.org/alpine/v3.24/releases/aarch64/alpine-minirootfs-3.24.3-aarch64.tar.gz",
+          "sha256": "4d3f80afaebd447c5591a63a73bde380a149fe8b2d85488cafabb2ff97551f50",
+          "size": 4029999
+        },
+        "x86_64": {
+          "url": "https://dl-cdn.alpinelinux.org/alpine/v3.24/releases/x86_64/alpine-minirootfs-3.24.3-x86_64.tar.gz",
+          "sha256": "f8e1cafba9b1b283b5d30d06f9885c8d2bc161ffe9083ade8e2e157813a53407",
+          "size": 3704080
+        }
+      }
+    },
+    {
+      "id": "debian",
+      "name": "Debian",
+      "version": "13.7",
+      "family": "debian",
+      "description": "Stable, with the most software. Needs more space and memory.",
+      "recommended": false,
+      "installSize": 1468006400,
+      "images": {
+        "armeabi-v7a": {
+          "url": "https://raw.githubusercontent.com/debuerreotype/docker-debian-artifacts/3f7438c82de0de3c67d1f2553c91628913a654cf/trixie/oci/blobs/rootfs.tar.gz",
+          "sha256": "05cefee146590a5be2c7703c704e5fd78889941e24ab1dfa8296ebafd4153810",
+          "size": 45829380
+        },
+        "arm64-v8a": {
+          "url": "https://raw.githubusercontent.com/debuerreotype/docker-debian-artifacts/e36653f9967231373aeba7cff2102fd004ac4f4a/trixie/oci/blobs/rootfs.tar.gz",
+          "sha256": "dfb68c024d5cdf4872bb7f0be8d63874aa6d0b7a0050f1b06169573e34ea543a",
+          "size": 49776179
+        },
+        "x86_64": {
+          "url": "https://raw.githubusercontent.com/debuerreotype/docker-debian-artifacts/69faaf492e77aff83e4c7fc401017c9d25ecde24/trixie/oci/blobs/rootfs.tar.gz",
+          "sha256": "a1d156b0aab5fb07d822a7f4681f6d3ed1689073531c34f5668818c233633f11",
+          "size": 49407895
+        }
+      }
+    },
+    {
+      "id": "ubuntu",
+      "name": "Ubuntu",
+      "version": "24.04.5 LTS",
+      "family": "debian",
+      "description": "Familiar and widely used. The largest of the three.",
+      "recommended": false,
+      "installSize": 1677721600,
+      "images": {
+        "armeabi-v7a": {
+          "url": "https://cdimage.ubuntu.com/ubuntu-base/releases/24.04/release/ubuntu-base-24.04.5-base-armhf.tar.gz",
+          "sha256": "4fcee4d278f1c5232e085a021a85e4c6cef3853557a88d98ff380b5e5d5841bb",
+          "size": 27120839
+        },
+        "arm64-v8a": {
+          "url": "https://cdimage.ubuntu.com/ubuntu-base/releases/24.04/release/ubuntu-base-24.04.5-base-arm64.tar.gz",
+          "sha256": "a91d5a93010193712d346d761372b7c9db6dfcf093893161c64ca107f05914f2",
+          "size": 29936675
+        },
+        "x86_64": {
+          "url": "https://cdimage.ubuntu.com/ubuntu-base/releases/24.04/release/ubuntu-base-24.04.5-base-amd64.tar.gz",
+          "sha256": "e77b6f10c2590cef872b33ee9f635a0e3fd1f57fb074c0e52b5c7f56147a0c86",
+          "size": 30028293
+        }
+      }
+    }
+  ]
+}
